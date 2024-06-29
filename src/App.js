@@ -1,0 +1,27 @@
+import './App.css';
+import React from "react";
+import Navbar from "./Components/Navbar.jsx";
+import Banner from './Components/Banner.jsx';
+import About from './Components/About.jsx';
+import Skills from './Components/Skills.jsx';
+import Portfolio from './Components/Portfolio.jsx';
+import Contact from './Components/Contact.jsx';
+import Footer from './Components/Footer.jsx';
+import Services from './Components/Services.jsx';
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <Banner />
+      <About />
+      <Services />
+      <Skills />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
