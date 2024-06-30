@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bc3cf8ec.css",
+    "main.js": "/portfolio/static/js/main.9c5c9147.js",
+    "static/media/Joshua.png": "/portfolio/static/media/Joshua.80b131f88af8d0ffb72f.png",
+    "static/media/wordpress.png": "/portfolio/static/media/wordpress.ac2b65a54a5ed3d27fe7.png",
+    "static/media/react.png": "/portfolio/static/media/react.3088264ac89b95c1021b.png",
+    "static/media/project3.jpg": "/portfolio/static/media/project3.8c2c43d7561ffed7dc38.jpg",
+    "static/media/aboutme.png": "/portfolio/static/media/aboutme.1f016da1cd7e9afcff18.png",
+    "static/media/javascr.png": "/portfolio/static/media/javascr.74d213492bea720ffa71.png",
+    "static/media/project1.jpg": "/portfolio/static/media/project1.215956ebc2bffdf01fed.jpg",
+    "static/media/project2.jpg": "/portfolio/static/media/project2.a64b990af78388fbdcf3.jpg",
+    "static/media/figma.png": "/portfolio/static/media/figma.1366cf1bb10a75f553d2.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.d8d36722149b2bc96deb.png",
+    "static/media/project4.jpg": "/portfolio/static/media/project4.f7d20adf01cf2052ca34.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.bc3cf8ec.css.map": "/portfolio/static/css/main.bc3cf8ec.css.map",
+    "main.9c5c9147.js.map": "/portfolio/static/js/main.9c5c9147.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc3cf8ec.css",
+    "static/js/main.9c5c9147.js"
+  ]
+}
