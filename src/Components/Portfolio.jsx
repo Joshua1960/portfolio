@@ -23,19 +23,19 @@ export default class Portfolio extends Component {
             {/* Each project */}
             <div className='flex flex-col sm:flex-row items-center gap-5 sm:gap-14 sm:m-8'>
                 <motion.img 
-                    variants={fadeIn("right", 0.1)}
-                    initial="hidden"
-                    whileInView={"show"}
-                    viewport={{once: false}}
-                    className='sm:w-1/2' src={Project1} alt="" />
-                <motion.div
+                variants={fadeIn("right", 0.1)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{once: false}}
+                className='sm:w-1/2' src={Project1} alt="" />
+                <motion.div 
                     variants={fadeIn("left", 0.1)}
                     initial="hidden"
                     whileInView={"show"}
-                    viewport={{once: false}} 
+                    viewport={{once: false}}
                     className='text-start gap-4 flex flex-col sm:gap-6'>
-                    <p className='text-lime-400 text-lg'>Website Development</p>
-                    <p className='text-white font-medium text-2xl sl:text-4xl sm:text-5xl'>FoundervsFinance Website</p>
+                    <p className='text-lime-400 text-lg'>Product Design</p>
+                    <p className='text-white font-medium text-2xl sl:text-4xl sm:text-5xl'>Mobile Application Design</p>
                     <p className='text-neutral-300 sm:text-lg'>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis...</p>
                     <div><FontAwesomeIcon className='rotate-45 bg-black p-4 rounded-full outline outline-1 outline-slate-600 hover:outline-lime-500' icon={faArrowUp} style={{color: "#C9F31D",}} /></div>
                 </motion.div>

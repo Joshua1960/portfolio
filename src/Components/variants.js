@@ -1,8 +1,8 @@
 export const fadeIn = (direction, delay) => {
     return {
         hidden: {
-            y: direction === 'up' ? 60 : direction === 'down' ? -60 : 0,
-            x: direction === 'left' ? 60 : direction === 'right' ? -60 : 0,
+            y: direction === 'up' ? 20 : direction === 'down' ? -20 : 0,
+            x: direction === 'left' ? 20 : direction === 'right' ? -20 : 0,
             opacity: 0,
         },
         show: {

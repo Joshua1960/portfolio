@@ -13,8 +13,8 @@ import {fadeIn} from "../Components/variants";
 export default class About extends Component {
   render() {
     return (
-        <div id='about' className="bg-black flex-col flex gap-16 items-center xl:px-16 px-6 py-4 sm:flex-row sl:w-full">
-          <div className="xl:col-span-2 flex-1">
+        <div id='about' className="overflow-hidden bg-black flex-col flex gap-16 items-center xl:px-16 px-6 py-4 sm:flex-row sl:w-full">
+          <div className="xl:col-span-2 flex-1 overflow-hidden">
             <motion.div
               variants={fadeIn("up", 0.1)}
               initial="hidden"
