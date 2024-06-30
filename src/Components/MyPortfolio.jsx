@@ -8,10 +8,10 @@ import Project4 from "../image/project4.jpg";
 // Motion
 import {motion} from 'framer-motion';
 // Variants
-import {fadeIn} from "../Components/variants";
+import {fadeIn} from "./variants";
 
 
-export default class Portfolio extends Component {
+export default class MyPortfolio extends Component {
   render() {
     return (
       <div id='portfolio' className='bg-stone-900 flex flex-col xl:px-16 px-6 py-16 place-items-center gap-6'>

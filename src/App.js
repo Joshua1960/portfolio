@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar.jsx";
 import Banner from './Components/Banner.jsx';
 import About from './Components/About.jsx';
 import Skills from './Components/Skills.jsx';
-import Portfolio from './Components/Portfolio.jsx';
+import MyPortfolio from './Components/MyPortfolio.jsx';
 import Contact from './Components/Contact.jsx';
 import Footer from './Components/Footer.jsx';
 import Services from './Components/Services.jsx';
@@ -17,7 +17,7 @@ function App() {
       <About />
       <Services />
       <Skills />
-      <Portfolio />
+      <MyPortfolio />
       <Contact />
       <Footer />
     </div>
