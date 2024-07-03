@@ -9,7 +9,7 @@ import {fadeIn} from "../Components/variants";
 
 export default function Services() {
   return (
-    <div id='services' className='bg-stone-900 xl:px-16 px-6 py-8 flex flex-col gap-10'>
+    <div id='services' className='bg-stone-900 xl:px-16 px-6 py-12 flex flex-col gap-10'>
         <div className='flex flex-col items-center gap-2'>
             <p className='text-neutral-200 text-lg font-normal tracking-wider'>Services</p>
             <div className='sm:w-2/3 flex flex-col h-2/3 text-lime-500 font-semibold text-2xl md:text-5xl gap-1 sm:text-center'>My Special Service For your Business Development</div>
@@ -24,7 +24,7 @@ export default function Services() {
               viewport={{once: false}} 
               className="justify-between w-full text-white tracking-wide text-start gap-8 p-8 rounded-3xl sm:flex-row shadow-md flex flex-col bg-neutral-800 my-4 outline outline-1 outline-slate-600 hover:duration-300 hover:outline-lime-500">
               <div className='text-2xl'>01</div>
-              <div className='font-medium text-xl'>Brand Identity Design <br /><span className='font-light text-base'>Dignissimos ducimus blanditiis praesen</span></div>
+              <div className='font-medium text-xl'>Website Design<br /><span className='font-light text-base'>Creative web designer specializing in user-centric designs, responsive websites, and seamless user experiences. Let's create!</span></div>
               <div><FontAwesomeIcon className='rotate-45 bg-black p-4 rounded-full outline outline-1 outline-slate-600' icon={faArrowUp} style={{color: "#C9F31D",}} /></div>                
             </motion.div>
           {/* Box 2 */}

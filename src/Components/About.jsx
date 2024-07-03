@@ -13,7 +13,7 @@ import {fadeIn} from "../Components/variants";
 export default class About extends Component {
   render() {
     return (
-        <div id='about' className="overflow-hidden bg-black flex-col flex gap-16 items-center xl:px-16 px-6 py-4 sm:flex-row sl:w-full">
+        <div id='about' className="overflow-hidden bg-black flex-col flex gap-16 items-center xl:px-16 px-6 py-12 sm:flex-row sl:w-full">
           <div className="xl:col-span-2 flex-1 overflow-hidden">
             <motion.div
               variants={fadeIn("up", 0.1)}
@@ -23,7 +23,7 @@ export default class About extends Component {
             >
               <h2 className="text-neutral-200 text-lg font-normal tracking-wider text-start">About me</h2>
               <p className="flex flex-col text-white text-3xl sl:text-4xl md:text-4xl lg:text-5xl font-medium text-start gap-1">Professional <span className='text-lime-500'>Problem solution</span> for digital product</p>
-              <p className="text-gray-300 mt-6 text-start leading-7 tracking-wide">At vero eos et accusamus etodio dignissimos ducimus praesentium voluptatum corrupti quos dolores quas molestias excepturi sint occaecati cupiditate provident qui officia deserunt mollitia animi, id est laborum et dolorum</p>
+              <p className="text-gray-300 mt-6 text-start leading-7 tracking-wide">In today's fast-paced digital world, businesses need effective solutions for their digital products. I identify pain points and delivers tailored strategies to enhance user experience, boost performance, and drive growth. From concept to implementation, I provide comprehensive support to ensure your digital product thrives in a competitive market.</p>
             </motion.div>
             <motion.div
               variants={fadeIn("right", 0.2)}

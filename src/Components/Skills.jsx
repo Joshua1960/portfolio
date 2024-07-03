@@ -47,10 +47,10 @@ export default class Skills extends Component {
                 <div className='w-4/5'>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-slate-500"></span>
-                    <span className="px-2 py-1 bg-teal-50 rounded-lg text-xs text-neutral-800 font-medium text-center">80%</span>
+                    <span className="px-2 py-1 bg-teal-50 rounded-lg text-xs text-neutral-800 font-medium text-center">60%</span>
                   </div>
                   <div className="w-full bg-slate-100 h-2 mb-6 mt-2 rounded-lg">
-                    <div className="bg-lime-400 h-2 rounded-lg w-4/5"></div>
+                    <div className="bg-lime-400 h-2 rounded-lg w-3/5"></div>
                   </div>
                 </div>
               </a>
